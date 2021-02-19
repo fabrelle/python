@@ -1,0 +1,10 @@
+#Name: Borelle Fabrice Tene
+#Email: borellefabrice.tenemoukam54@myhunter.cuny.edu
+#Date: February 19, 2021
+#This program Prompts the user to enter a message and prints each character in the message, its Unicode number + 1 and the character corresponding to that number.
+ 
+
+c = input("Enter your message: ")
+print(f'You entered: {c}')
+for ch in c:
+  print(ch, ord(ch), chr(ord(ch) + 1))
